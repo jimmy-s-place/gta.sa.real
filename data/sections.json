@@ -9,8 +9,34 @@
  "B1": [],
  "B2": [],
  "B3": [],
- "B4": [],
- "B5": [],
+ "B4": [
+  {
+   "src": "public/sections/B4/B4.1.jpg",
+   "caption": ""
+  },
+  {
+   "src": "public/sections/B4/B4.2.jpg",
+   "caption": ""
+  },
+  {
+   "src": "public/sections/B4/B4.3.jpg",
+   "caption": ""
+  },
+  {
+   "src": "public/sections/B4/B4.4.jpg",
+   "caption": ""
+  }
+ ],
+ "B5": [
+  {
+   "src": "public/sections/B5/B5.1.jpg",
+   "caption": ""
+  },
+  {
+   "src": "public/sections/B5/B5.2.jpg",
+   "caption": ""
+  }
+ ],
  "B6": [],
  "B7": [],
  "C1": [],
