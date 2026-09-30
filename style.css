@@ -19,3 +19,6 @@ html, body { margin: 0; height: 100%; background: #0e1a24; font-family: system-u
 .preview p { margin: 6px 0 0; font-size: .85rem; color: #222; }
 #toast { display: none; position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 1500;
   background: rgba(0,0,0,.85); color: #ffd23f; padding: 8px 14px; border-radius: 8px; font: 14px monospace; }
+.cluster { width: 40px; height: 40px; border-radius: 50%; background: #e63946; border: 3px solid #fff; color: #fff;
+  font: 700 15px system-ui, sans-serif; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.6); box-sizing: border-box; cursor: pointer; }

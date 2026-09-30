@@ -38,6 +38,16 @@ function addMarkers(sections, w, h) {
   const cw = w / COLS.length, ch = h / ROWS;
   const icon = L.divIcon({ className: '', html: '<div class="pin"></div>', iconSize: [26, 34], iconAnchor: [13, 34], popupAnchor: [0, -32] });
 
+  const group = L.markerClusterGroup({
+    maxClusterRadius: 50,
+    showCoverageOnHover: false,
+    zoomToBoundsOnClick: true,
+    spiderfyOnMaxZoom: true,
+    iconCreateFunction: c => L.divIcon({
+      className: '', html: '<div class="cluster">' + c.getChildCount() + '</div>', iconSize: [40, 40]
+    })
+  });
+
   Object.entries(sections).forEach(([cell, items]) => {
     const c = COLS.indexOf(cell[0]), r = parseInt(cell.slice(1), 10) - 1;
     if (c < 0 || isNaN(r)) return;
@@ -67,9 +77,10 @@ function addMarkers(sections, w, h) {
         lightbox.querySelector('p').textContent = it.caption || '';
         lightbox.classList.remove('hidden');
       };
-      L.marker([lat, lng], { icon }).addTo(map).bindPopup(box, { minWidth: 200, maxWidth: 240 });
+      group.addLayer(L.marker([lat, lng], { icon }).bindPopup(box, { minWidth: 200, maxWidth: 240 }));
     });
   });
+  map.addLayer(group);
 }
 
 // Tap empty map → shows x,y (% of map) to paste into sections.json
