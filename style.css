@@ -1,20 +1,6 @@
 html, body { margin: 0; height: 100%; background: #0e1a24; font-family: system-ui, sans-serif; }
 #map { position: absolute; inset: 0; background: #0e1a24; }
 
-#panel {
-  position: absolute; top: 0; right: 0; bottom: 0; width: 360px; max-width: 100%;
-  background: rgba(14, 22, 30, .96); color: #eee; z-index: 1000;
-  padding: 16px; overflow-y: auto; box-sizing: border-box;
-  box-shadow: -4px 0 16px rgba(0, 0, 0, .5);
-}
-#panel h2 { margin: 0 0 12px; font-size: 1.4rem; }
-#close {
-  position: absolute; top: 8px; right: 12px; background: none; border: 0;
-  color: #eee; font-size: 2rem; cursor: pointer; line-height: 1;
-}
-#gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-#gallery img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px; cursor: zoom-in; }
-#gallery .empty { grid-column: 1 / -1; color: #9ab; font-size: .95rem; }
 
 #lightbox {
   position: fixed; inset: 0; z-index: 2000; background: rgba(0, 0, 0, .9);
@@ -25,6 +11,11 @@ html, body { margin: 0; height: 100%; background: #0e1a24; font-family: system-u
 
 .hidden { display: none !important; }
 
-@media (max-width: 700px) {
-  #panel { top: auto; height: 55%; width: 100%; box-shadow: 0 -4px 16px rgba(0, 0, 0, .5); }
-}
+.pin { width: 26px; height: 26px; background: #e63946; border: 2px solid #fff; border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg); box-shadow: 0 2px 6px rgba(0,0,0,.6); }
+.pin::after { content: ''; position: absolute; width: 8px; height: 8px; background: #fff; border-radius: 50%; top: 7px; left: 7px; }
+.preview { cursor: zoom-in; }
+.preview img { width: 100%; display: block; border-radius: 4px; }
+.preview p { margin: 6px 0 0; font-size: .85rem; color: #222; }
+#toast { display: none; position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 1500;
+  background: rgba(0,0,0,.85); color: #ffd23f; padding: 8px 14px; border-radius: 8px; font: 14px monospace; }
