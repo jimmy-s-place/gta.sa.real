@@ -1,4 +1,4 @@
-const MAP_FILE = 'public/map/SanAndreas-TerrainMap (1).webp';
+const MAP_FILE = 'public/map/Map.webp';
 const COLS = 'ABCDEFG'.split('');   // left → right
 const ROWS = 7;                     // top → bottom (1–7)
 
