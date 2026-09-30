@@ -8,7 +8,9 @@ const toast = document.createElement('div');
 toast.id = 'toast';
 document.body.appendChild(toast);
 
-const load = fetch('data/sections.json').then(r => r.json()).catch(() => ({}));
+const load = fetch('data/sections.json?v=' + Date.now(), { cache: 'no-store' })
+  .then(r => r.json())
+  .catch(err => { console.error('sections.json failed to load', err); return {}; });
 const img = new Image();
 img.onload = async () => {
   const w = img.naturalWidth, h = img.naturalHeight;
