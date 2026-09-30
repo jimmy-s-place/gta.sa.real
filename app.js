@@ -1,4 +1,4 @@
-const MAP_FILE = 'public/map/Map.webp';
+const MAP_FILE = 'public/Map/Map.webp';
 const COLS = 'ABCDEFG'.split('');   // left → right
 const ROWS = 7;                     // top → bottom (1–7)
 
