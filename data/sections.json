@@ -27,10 +27,12 @@
  "D2": [],
  "D3": [],
  "D4": [],
- "D5": [{ "src": "public/sections/D5/D5.1.jpg", "caption": "D5.1" },
-  { "src": "public/sections/D5/D5.2.jpg", "caption": "D5.2" },
-  { "src": "public/sections/D5/D5.3.jpg", "caption": "D5.3" },
-  { "src": "public/sections/D5/D5.4.jpg", "caption": "D5.4" }],
+ "D5": [
+  { "src": "public/sections/D5/D5.1.jpg", "caption": "", "x": 48.2, "y": 69.0 },
+  { "src": "public/sections/D5/D5.2.jpg", "caption": "", "x": 48.2, "y": 68.5 },
+  { "src": "public/sections/D5/D5.3.jpg", "caption": "", "x": 48.7, "y": 68.7 },
+  { "src": "public/sections/D5/D5.4.jpg", "caption": "", "x": 48.8, "y": 69.3 }
+ ]
  "D6": [],
  "D7": [],
  "E1": [],
