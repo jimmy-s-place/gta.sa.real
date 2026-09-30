@@ -28,10 +28,10 @@
  "D3": [],
  "D4": [],
  "D5": [
-  { "src": "public/sections/D5/D5.1.jpg", "caption": "", "x": 48.2, "y": 69.0 },
-  { "src": "public/sections/D5/D5.2.jpg", "caption": "", "x": 48.2, "y": 68.5 },
-  { "src": "public/sections/D5/D5.3.jpg", "caption": "", "x": 48.7, "y": 68.7 },
-  { "src": "public/sections/D5/D5.4.jpg", "caption": "", "x": 48.8, "y": 69.3 }
+  { "src": "public/sections/D5/D5.1.jpg"},
+  { "src": "public/sections/D5/D5.2.jpg"},
+  { "src": "public/sections/D5/D5.3.jpg"},
+  { "src": "public/sections/D5/D5.4.jpg"}
  ]
  "D6": [],
  "D7": [],
