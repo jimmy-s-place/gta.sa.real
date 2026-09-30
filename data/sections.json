@@ -28,11 +28,11 @@
  "D3": [],
  "D4": [],
  "D5": [
-  { "src": "public/sections/D5/D5.1.jpg"},
-  { "src": "public/sections/D5/D5.2.jpg"},
-  { "src": "public/sections/D5/D5.3.jpg"},
-  { "src": "public/sections/D5/D5.4.jpg"}
- ]
+  { "src": "public/sections/D5/image1.jpg", "caption": "Optional text" },
+  { "src": "public/sections/D5/image2.jpg", "caption": "" },
+  { "src": "public/sections/D5/image3.jpg", "caption": "" },
+  { "src": "public/sections/D5/image4.jpg", "caption": "" }
+]
  "D6": [],
  "D7": [],
  "E1": [],
