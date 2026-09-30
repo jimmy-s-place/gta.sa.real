@@ -29,7 +29,12 @@
  "D2": [],
  "D3": [],
  "D4": [],
- "D5": [],
+ "D5": [
+  { "src": "public/sections/D5/D5.1.jpg", "caption": "D5.1" },
+  { "src": "public/sections/D5/D5.2.jpg", "caption": "D5.2" },
+  { "src": "public/sections/D5/D5.3.jpg", "caption": "D5.3" },
+  { "src": "public/sections/D5/D5.4.jpg", "caption": "D5.4" }
+ ],
  "D6": [],
  "D7": [],
  "E1": [],
