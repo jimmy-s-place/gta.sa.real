@@ -12,29 +12,41 @@
  "B4": [
   {
    "src": "public/sections/B4/B4.1.jpg",
-   "caption": ""
+   "caption": "",
+   "x": 23.8,
+   "y": 51.4
   },
   {
    "src": "public/sections/B4/B4.2.jpg",
-   "caption": ""
+   "caption": "",
+   "x": 27.7,
+   "y": 49.1
   },
   {
    "src": "public/sections/B4/B4.3.jpg",
-   "caption": ""
+   "caption": "",
+   "x": 28.0,
+   "y": 52.6
   },
   {
    "src": "public/sections/B4/B4.4.jpg",
-   "caption": ""
+   "caption": "",
+   "x": 22.9,
+   "y": 60.1
   }
  ],
  "B5": [
   {
    "src": "public/sections/B5/B5.1.jpg",
-   "caption": ""
+   "caption": "",
+   "x": 20.0,
+   "y": 59.6
   },
   {
    "src": "public/sections/B5/B5.2.jpg",
-   "caption": ""
+   "caption": "",
+   "x": 28.1,
+   "y": 59.4
   }
  ],
  "B6": [],
