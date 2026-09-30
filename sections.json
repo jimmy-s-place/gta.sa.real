@@ -16,12 +16,10 @@
  "C1": [],
  "C2": [],
  "C3": [],
- "C4": [
-  {
+ "C4": [{
    "src": "public/sections/C4/example.jpg",
-   "caption": "Example - replace me"
-  }
- ],
+   "caption": "404 image not found"
+  }],
  "C5": [],
  "C6": [],
  "C7": [],
@@ -29,12 +27,10 @@
  "D2": [],
  "D3": [],
  "D4": [],
- "D5": [
-  { "src": "public/sections/D5/D5.1.jpg", "caption": "D5.1" },
+ "D5": [{ "src": "public/sections/D5/D5.1.jpg", "caption": "D5.1" },
   { "src": "public/sections/D5/D5.2.jpg", "caption": "D5.2" },
   { "src": "public/sections/D5/D5.3.jpg", "caption": "D5.3" },
-  { "src": "public/sections/D5/D5.4.jpg", "caption": "D5.4" }
- ],
+  { "src": "public/sections/D5/D5.4.jpg", "caption": "D5.4" }],
  "D6": [],
  "D7": [],
  "E1": [],
